@@ -1,0 +1,161 @@
+/*  display : inline-block : usado para fazer os elementos q ocupam a linha toda parar de ocupa-la.
+    display : block : usado para fazer os elementos q não ocupam a linha por completo passar a ocupa-la.
+    display : flex : torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
+    flex-direction : define a direção dos flex itens. para melhor montagem da pagina.
+    border-radius : usado para arredondar as estremindades das bordas.
+     */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: Calibri;
+    text-align: center;
+    margin:0px;
+    border: 0px;
+}
+h1 {
+    padding: 50px;
+    background-color: rgb(214, 116, 84);
+    font-family: 'Playfair Display SC', serif;
+    margin-top: -20px;
+}
+#fundo{
+    padding:10px ;
+    background-color:rgba(0, 0, 0, 0.8) ;
+    text-align: center;
+    margin-top:-20px ;
+}
+a {
+    color:rgba(12, 8, 8, 0.966);
+    font-weight: bold;
+    text-decoration: none;
+}
+.coluna{
+   display: inline-block;
+    width: 400px;
+
+}
+#centro {
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    display: inline-block;
+    text-align: start;
+    border-collapse: collapse;
+    border: 2px rgb(214, 116, 84) solid
+}
+td, th{
+    border: none;
+    border-bottom: 2px rgb(214, 116, 84) solid;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+}
+th {
+    background-color: rgb(214, 116, 84)
+}
+h3 {
+    margin-right: 150px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.passar_mouse a:hover {
+    background-color: rgb(214, 116, 84) ;
+    padding: 3px;
+    border: 2px rgb(214, 116, 84) solid;
+    border-radius: 25px;
+    margin: -5px;
+    color:#fff;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    margin: -4px
+}
+.imagemredonda {
+    border-radius:600px ;
+}
+.form_box {
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+}
+.conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin: 3px;
+    padding: 5px
+}
+.texto_certo {
+   margin-top: auto;
+   margin-bottom:auto;
+   width: 500px;
+   text-align: left;
+   font-size: 18px;
+   margin-left: 20px;
+}
+.box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius:15px;
+    width:20%;
+    color:rgba(255, 255, 255, 0.966);
+}
+fieldset{
+    border: 3px solid rgb(214, 116, 84);
+}
+legend{
+    border: 1px solid rgb(214, 116, 84);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(214, 116, 84);
+    border-radius: 8px;
+}
+.labelInput{
+    pointer-events: none;
+    transition: .5s;
+}
+.inputuser {
+    background: none;
+    border: none;
+    border-bottom: 1px #fff solid;
+    outline: none;
+    color:rgba(255, 255, 255, 0.945);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+
+}
+button {
+    padding: 15px 80px 15px 80px;
+    margin-top: 10px;
+    border-radius: 68px;
+    background-color:rgb(214, 116, 84);
+    color:rgba(255, 255, 255, 0.945);
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+}
+textarea {
+    resize: none;
+    height: 80px;
+    width: 80px;
+}
+.bordinha {
+    border-color:rgb(214, 116, 84);
+    border: 50px;
+    display: inline-block;
+}
+span {
+    color:#fff;
+}
+.linkbranco {
+    color:rgba(255, 255, 255, 0.966);
+    font-weight: bold;
+    text-decoration: none;
+}

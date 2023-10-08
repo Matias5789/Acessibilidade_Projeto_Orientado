@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html Lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+		<title>Projeto Orientado | Contatos</title>
+        <link href="CSS/main.css" rel="stylesheet">
+    </head>
+<body>
+    <header>
+	    <h1>Projeto Orientado</h1>
+        <p class="passar_mouse cor" id="fundo"> <a class="linkbranco" Href="projeto_orientado.html">Home</a> | <a class="linkbranco" Href="Marina_Camaño.html">Marina Camaño</a> | <a class="linkbranco" Href="Mateus_Silva.html">Mateus Silva</a> 
+        | <a class="linkbranco" href="Tabela_de_curiosidade.html">Tabela de Curiosidades</a> | <a class="linkbranco" Href="Sites_Favoritos.html">Sites Favoritos</a> | <span>Contatos</span> </p>
+    </header>
+<div class="box">
+<form method="post" action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php">
+    <fieldset>
+        <legend><b>Contatos</b></legend>
+            <div class="form_box">
+                <label for="Nome" class="labelInput">Nome</label><input class="inputuser" type="text" name="Nome" id="Nome" minlength="3" 
+                maxlength="45" required>
+        </div>
+        <div class="form_box">
+            <label for="telefone" class="labelInput" >Telefone</label><input class="inputuser" type="tel" name="telefone" id="telefone" 
+            maxlength="11" minlength="10" required>
+        </div>
+        <div class="form_box">
+            <label for="email" class="labelInput">E-mail</label><input class="inputuser" type="email" name="email" id="email" required>
+        </div>
+        <div class="form_box">
+            <label for="mensagem" class="labelInput">Mensagem</label><textarea class="inputuser" name="mensagem" id="mensagem" ></textarea>
+        </div>
+        <div>
+            <button>Enviar</button>
+        </div>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>
