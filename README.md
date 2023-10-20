@@ -6,5 +6,6 @@
 <h2>Entregas</h2>
 <ul>
   <li>Entrega 1 : Imagem com o alt bem detalhado para os cegos - ✔️</li>
-  <li>Entrega 2 : Contrastes e Navegadores - ⚠️</li>
+  <li>Entrega 2 : Contrastes e Navegadores - ✔️</li>
+  <li>Entrega 3 : Transformar as tabelas em acessiveis - ⚠️</li>
 </ul>
