@@ -5,6 +5,11 @@
 	<meta charset="UTF-8">
 		<title>Projeto Orientado | Contatos</title>
         <link href="CSS/main.css" rel="stylesheet">
+        <style>
+            scan {
+                color: #F9B4B4;
+            }
+        </style>
     </head>
 <body>
     <header>
@@ -19,21 +24,17 @@
     <fieldset>
         <legend><b>Contatos</b></legend>
             <div class="form_box">
-                <label for="Nome" class="labelInput">Nome</label><input class="inputuser" type="text" name="Nome" id="Nome" minlength="3" 
+                <label for="Nome" class="labelInput"><scan>*</scan> Nome (Obrigatório)</label><input class="inputuser" type="text" name="Nome" id="Nome" minlength="3" 
                 maxlength="45" required>
         </div>
         <div class="form_box">
-            <label for="telefone" class="labelInput" >Telefone</label><input class="inputuser" type="tel" name="telefone" id="telefone" 
-            maxlength="11" minlength="10" required>
-        </div>
-        <div class="form_box">
-            <label for="email" class="labelInput">E-mail</label><input class="inputuser" type="email" name="email" id="email" required>
+            <label for="email" class="labelInput"><scan>*</scan> E-mail (Obrigatório)</label><input class="inputuser" type="email" name="email" id="email" required>
         </div>
         <div class="form_box">
             <label for="mensagem" class="labelInput">Mensagem</label><textarea class="inputuser" name="mensagem" id="mensagem" ></textarea>
         </div>
         <div>
-            <button>Enviar</button>
+            <button title="Enviar informações">Enviar</button>
         </div>
     </fieldset>
 </form>
