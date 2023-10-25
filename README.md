@@ -8,5 +8,5 @@
   <li>Entrega 1 : Imagem com o alt bem detalhado para os cegos - ✔️</li>
   <li>Entrega 2 : Contrastes e Navegadores - ✔️</li>
   <li>Entrega 3 : Transformar as tabelas em acessiveis - ✔️</li>
-  <li>Entrega 4 :  - ⚠️</li>
+  <li>Entrega 4 : Tornar o formulario em acessivel - ⚠️</li>
 </ul>
