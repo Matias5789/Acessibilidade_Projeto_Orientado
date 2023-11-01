@@ -9,6 +9,9 @@
             scan {
                 color: #F9B4B4;
             }
+            #check{
+                display: inline;
+            }
         </style>
     </head>
 <body>
@@ -32,6 +35,14 @@
         </div>
         <div class="form_box">
             <label for="mensagem" class="labelInput">Mensagem</label><textarea class="inputuser" name="mensagem" id="mensagem" ></textarea>
+        </div>
+        <div>
+            <label id="check" class="labelInput"><scan>*</scan> Aluno (Obrigatório)</label>
+            <br>
+            <input type="checkbox" name="marina" id="marina" required><label for="marina"> Marina </label>
+            <input type="checkbox" name="mateus" id="mateus" required><label for="mateus"> Mateus </label>
+            <input type="checkbox" name="gabriel" id="gabriel" required><label for="gabriel"> Gabriel </label>
+            <input type="checkbox" name="rodrigo" id="rodrigo" required><label for="rodrigo"> Rodrigo </label>
         </div>
         <div>
             <button title="Enviar informações">Enviar</button>
